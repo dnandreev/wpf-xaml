@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:WpfApplication"
+		mc:Ignorable="d"
+		Title="Главное окно" Width="320" Height="240">
+	<StackPanel>
+		<Label Content="Введите своё имя" Margin="10" Padding="5" Foreground="#55f"/>
+		<TextBox Name="name" Margin="10,0" Padding="5" TextWrapping="Wrap"/>
+		<Button Content="Ok" Click="showHello" Margin="10" Padding="5"/>
+	</StackPanel>
+</Window>
